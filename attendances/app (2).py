@@ -220,7 +220,7 @@ with tab2:
 
 
 #Salary Report
-elif menu == "💰 Salary Report":
+if menu == "💰 Salary Report":
     st.subheader("💰 Salary Report")
     if attendance.empty: st.info("No data.")
     else:
